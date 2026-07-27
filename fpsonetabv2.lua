@@ -1,3 +1,6 @@
+-- === НАСТРОЙКА СЕРВЕРА ===
+local SERVER_URL = "https://твоя-ссылка-из-railway.up.railway.app"
+
 local CoreGui = game:GetService("CoreGui")
 local TweenService = game:GetService("TweenService")
 
