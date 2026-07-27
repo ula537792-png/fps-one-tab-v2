@@ -1,5 +1,5 @@
 -- === НАСТРОЙКА СЕРВЕРА ===
-local SERVER_URL = "https://fps-one-tab-v2-production.up.railway.app"
+local SERVER_URL = "https://fps-one-tab-v2-production.up.railway.app/"
 
 local CoreGui = game:GetService("CoreGui")
 local TweenService = game:GetService("TweenService")
