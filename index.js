@@ -7,7 +7,7 @@ let keysDB = {};
 app.post('/create-key', (req, res) => {
     const { adminSecret, keyName, durationDays } = req.body;
     
-    if (adminSecret !== "kjsas04msj3iasl3445") {
+    if (adminSecret !== "ratcaz") {
         return res.status(403).json({ success: false, message: "Access Denied" });
     }
     
