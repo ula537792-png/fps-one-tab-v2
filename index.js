@@ -98,5 +98,5 @@ app.post('/redeem-key', (req, res) => {
     res.json({ success: true, message: "Ключ принят!" });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
