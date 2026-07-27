@@ -1,5 +1,5 @@
 -- === НАСТРОЙКА СЕРВЕРА ===
-local SERVER_URL = "https://твоя-ссылка-из-railway.up.railway.app"
+local SERVER_URL = "https://fps-one-tab-v2-production.up.railway.app"
 
 local CoreGui = game:GetService("CoreGui")
 local TweenService = game:GetService("TweenService")
@@ -214,7 +214,7 @@ task.spawn(function()
     mainFrame.Visible = true
     startParticles()
     
-    TweenService:Create(mainFrame, TweenInfo.new(0.6, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {BackgroundTransparency = 0.05}):Play()
+    TweenService:Create(mainFrame, TweenInfo.new(0.6, Enum.EasingStyle.Quart,Enum.EasingDirection.Out), {BackgroundTransparency = 0.05}):Play()
     TweenService:Create(mainStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Transparency = 0.4}):Play()
     TweenService:Create(title, TweenInfo.new(0.6, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {TextTransparency = 0}):Play()
     
